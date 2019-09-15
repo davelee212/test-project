@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Test form</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <label for="firstname">First Name: </label>
+            <input type="text" name="firstname" required>
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="lastname" required>
+            <br>
+            <label for="male">Male: </label>
+            <input type="radio" name="gender" value="male" required>
+            <label for="male">Female: </label>
+            <input type="radio" name="gender" value="female" required>
+            <label for="male">Other: </label>
+            <input type="radio" name="gender" value="other" required>
+            <br>
+
+            <label for="emailaddress">Email: </label>
+            <input type="email" name="emailaddress" required>
+            <label for="password">Password: </label>
+            <input type="password" name="password" pattern=".{5,10}" required title="stop being a neewwwwb!">
+
+            <br>
+            <label for="birthdayMonth">Month</label>
+            <select name="birthdayMonth">
+                <option>-- Month --</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+            </select>
+            <label for="birthdayDay">Day</label>
+            <select name="birthdayDay">
+                    <option>-- Day --</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+            </select>
+            <label for="birthdayYear">Year</label>
+            <select name="birthdayYear">
+                    <option>-- Year --</option>
+                    <option>1982</option>
+                    <option>1981</option>
+                    <option>1980</option>
+            </select>
+            <br>
+            <label for="agreeTerms">I agree to the terms and conditions</label>
+            <input type="checkbox" name="agreeTerms">
+            <br>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
