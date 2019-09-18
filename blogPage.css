@@ -1,0 +1,45 @@
+body {
+    border: 12px solid #bdc3c7;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.postDate {
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #3498db;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.postTitle {
+    text-transform: capitalize;
+    color: #2c3e50;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.postContent {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.postContent p:nth-of-type(1) {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+.postContent p:last-of-type {
+    border-bottom: 1px solid #e9ecee;
+    padding-bottom: 10px;
+}
+
+.post {
+    margin-bottom: 25px;
+}

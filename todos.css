@@ -1,0 +1,10 @@
+body {
+    background: orange;
+}
+#special {
+    border: 5px solid red;
+}
+.highlight {
+    text-decoration: line-through;
+    
+}
